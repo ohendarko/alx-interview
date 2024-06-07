@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" Module for task 0
+
+"""
+Module for task 0
 Reads standard input line by line and computes metrics.
 Input format:
 <IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>.
