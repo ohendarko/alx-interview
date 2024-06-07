@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-This module that reads standard input
-line by line and computes metrics.
+Reads standard input line by line and computes metrics.
 """
 
 
