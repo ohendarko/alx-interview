@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""
+""" Module for task 0
 Reads standard input line by line and computes metrics.
 """
 
