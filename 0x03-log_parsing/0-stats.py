@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-a script that reads stdin line by line and computes metrics
+A script that reads stdin line by line and computes metrics
 """
 
 
 def print_statistics(total_size, status_counts):
-    """Pending"""
+    """Pending input of doc"""
     print(f"File size: {total_size}")
     for status in sorted(status_counts.keys()):
         if status_counts[status] > 0:
@@ -13,7 +13,7 @@ def print_statistics(total_size, status_counts):
 
 
 def process_line(line, total_size, status_counts):
-    """Pending"""
+    """Pending input of docs"""
     parts = line.split()
     if len(parts) < 9:
         return total_size, status_counts
@@ -34,7 +34,7 @@ def process_line(line, total_size, status_counts):
 
 
 def main():
-    """pending"""
+    """pending input of docs for main function"""
     total_size = 0
     status_counts =
     {200: 0, 301: 0, 400: 0, 401: 0, 403: 0, 404: 0, 405: 0, 500: 0}
