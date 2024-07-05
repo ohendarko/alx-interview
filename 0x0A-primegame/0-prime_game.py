@@ -3,6 +3,7 @@
 
 
 def isWinner(x, nums):
+    """Determine who the winner of each game is"""
     def sieve(n):
         """Generate primes up to n"""
         is_prime = [True] * (n + 1)
